@@ -6,7 +6,7 @@ Algoritmo minicalculadora
   leer num_a;
   Escribir "Introducir numero b";
   leer num_b;
-  Escribir "Introducir 1(suma), 2(resta), 3(multi)";
+  Escribir "Introducir 1(suma), 2(resta), 3(multi), 4(divi)";
   leer opcion;
   
   si (opcion =1) entonces
@@ -26,6 +26,10 @@ Algoritmo minicalculadora
 		
      finsi
  finsi
-
+ si(opcion = 4) Entonces
+	 
+	 num_res  <-num_a / num_b;
+	 Escribir "La divi de ", num_a," y de ", num_b," es de ",num_res;
+ FinSi
 FinAlgoritmo
   
